@@ -1,0 +1,9 @@
+#N canvas 3 58 450 300 10;
+#X obj 31 29 inlet;
+#X obj 31 157 outlet;
+#X obj 31 107 hradio 15 1 0 16 empty empty empty 0 -8 0 10 -262144
+-1 -1 14;
+#X obj 31 76 mod 16;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
